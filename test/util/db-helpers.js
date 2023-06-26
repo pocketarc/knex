@@ -65,7 +65,7 @@ function isBetterSQLite3(knex) {
 /**
  *
  * @param knex
- * @param {('pg'|'pgnative'|'pg-redshift'|'oracledb'|'mysql'|'mysql2'|'mssql'|'sqlite3'|'cockroachdb'|'better-sqlite3')[]} supportedDbs - supported DB values in DRIVER_NAMES from lib/constants.
+ * @param {('pg'|'pgnative'|'pg-redshift'|'oracledb'|'mysql'|'mysql2'|'mssql'|'sqlite3'|'cockroachdb'|'better-sqlite3'|'browser-sqlite3')[]} supportedDbs - supported DB values in DRIVER_NAMES from lib/constants.
  * @returns {*}
  */
 function isOneOfDbs(knex, supportedDbs) {
